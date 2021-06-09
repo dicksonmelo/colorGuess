@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: rgb(219, 219, 219);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#container-circulos {
+  display: grid;
+  grid: repeat(2, 15rem) / auto-flow 15rem;
+}
+
+.circulos {
+  width: 13rem;
+  height: 13rem;
+  background-color: darkcyan;
+  border-radius: 100%;
+}
+
+.color-rgb {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
