@@ -7,16 +7,21 @@
     <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
-  <body>
-    <div class="resultado"></div>
+  <body id="body">
     <div class="container">
+      <div id="resultDiv">
+        <p class="resultado"></p>
+      </div>
       <h1 class="color-rgb"></h1>
       <div id="container-circulos">
-        <div class="circulos"></div>
-        <div class="circulos"></div>
-        <div class="circulos"></div>
-        <div class="circulos"></div>
+        <div id="1" class="circulos"></div>
+        <div id="2" class="circulos"></div>
+        <div id="3" class="circulos"></div>
+        <div id="4" class="circulos"></div>
       </div>
+      <button class="flush">color flush</button>
+      <button onclick="countMinus()">count minus</button>
+      <p class="count"></p>
     </div>
     <script src="script.js"></script>
   </body>

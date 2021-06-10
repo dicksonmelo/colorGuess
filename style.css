@@ -2,14 +2,16 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+  "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 body {
   height: 100vh;
-  background-color: rgb(219, 219, 219);
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color;
 }
 
 #container-circulos {
@@ -26,8 +28,27 @@ body {
 
 .color-rgb {
   text-align: center;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+
   margin-top: 3rem;
   margin-bottom: 3rem;
+}
+
+.resultado {
+  color: rgb(226, 226, 226);
+  font-size: 7rem;
+}
+
+#resultDiv {
+  text-align: center;
+  border: solid 2px;
+  border-color: white;
+}
+
+.new-result {
+  color: rgb(30, 30, 30);
+}
+
+.count {
+  color: white
 }

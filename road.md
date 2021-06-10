@@ -8,6 +8,13 @@
 [x] - Comparar essa cor com a cor da vez
 [x] - Quando acertar, dizer que acertou
 [x] - Randomizar as cores
-[] - Quando errar, desaparecer o círculo e um "Tente novamente"
-[] - Adicionar um contador de chances
-[] - Adicionar dificuldade
+[x] - Quando errar, desaparecer o círculo
+[x] - Remover o elemento do círculo
+[x] - Adicionar função para chamar novas cores
+[x] - Não deixar o jogador clicar no círculo dps que erra
+[] - Mais um pouco de estilo
+[] - Adicionar contador de chances
+[] - Mudar a função de atualizar a página para atualizar apenas as cores
+[] - Adicionar botão de próximo desafio
+[] - Adicionar sistema de pontos
+[] - Adicionar níveis de dificuldade
